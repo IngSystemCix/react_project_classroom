@@ -39,6 +39,7 @@ bun run dev
 └── 📁react_project_classroom
     └── 📁public
         └── vite.svg
+        └── 404.png
     └── 📁src
         └── 📁assets
             └── react.svg
