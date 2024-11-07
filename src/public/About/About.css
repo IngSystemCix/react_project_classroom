@@ -1,0 +1,34 @@
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 100vh;
+    padding: 1rem;
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-bottom: 1rem;
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        a {
+            font-size: 1.2rem;
+            color: #0360d9;
+            text-decoration: none;
+            transition: color .3s;
+            &:hover {
+                color: #0047b3;
+            }
+        }
+    }
+}

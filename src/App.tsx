@@ -1,18 +1,22 @@
+import { ReactNode } from 'react'
 import './App.css'
-import { Counter, ToggleTheme } from './components'
-import { ThemeProvider } from './context'
+import { Footer, Jumbotron, Navbar } from './components'
 
-function App() {
+interface Props {
+  children: ReactNode
+}
+
+function App({children}: Props) {
 
   return (
     <>
-      <ThemeProvider>
-        <div>
-          <h1>Ejemplo de Hooks en React</h1>
-          <ToggleTheme />
-          <Counter />
-        </div>
-      </ThemeProvider>
+      <Jumbotron>
+        <h1>Curso de React</h1>
+        <p>Este es un tema del curso de JS Avanzado</p>
+      </Jumbotron>
+      <Navbar />
+      {children}
+      <Footer />
     </>
   )
 }

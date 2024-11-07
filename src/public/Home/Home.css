@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.container__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-content: start;
+    place-items: start;
+    gap: 2rem 1rem;
+    padding: 1rem;
+}

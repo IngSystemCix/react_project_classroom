@@ -5,10 +5,10 @@ export const Counter = () => {
 
     return (
         <div>
-            <h1>Counter</h1>
-            <h2>Counter current: {count}</h2>
-            <h2>Counter previous: {previousCount}</h2>
-            <h2>Expensive calculation: {expensiveCalculation}</h2>
+            <h3>Counter</h3>
+            <p>Counter current: {count}</p>
+            <p>Counter previous: {previousCount}</p>
+            <p>Expensive calculation: {expensiveCalculation}</p>
             <button onClick={increment}>Increment</button>
             <button onClick={decrement}>Decrement</button>
             <button onClick={reset}>Reset</button>
